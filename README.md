@@ -22,4 +22,4 @@ That installs native dependencies, builds the Android app, and launches it on yo
 
 ## Demo
 
-<video src="./assets/readme-video.mp4" controls width="320"></video>
+https://github.com/user-attachments/assets/082eb7e9-d089-4e98-964a-6679ac6fed75
