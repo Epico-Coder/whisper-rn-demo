@@ -19,3 +19,7 @@ npx expo run:android
 ```
 
 That installs native dependencies, builds the Android app, and launches it on your connected device.
+
+## Demo
+
+<video src="./assets/readme-video.mp4" controls width="320"></video>
