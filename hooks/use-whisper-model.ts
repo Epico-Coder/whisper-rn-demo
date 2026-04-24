@@ -15,8 +15,6 @@ export interface WhisperModel {
   filename: string;
   capabilities: {
     multilingual: boolean;
-    quantizable: boolean;
-    tdrz?: boolean; // Optional TDRZ capability for native models
   };
 }
 
@@ -28,7 +26,6 @@ export const WHISPER_MODELS: WhisperModel[] = [
     filename: "ggml-tiny.en.bin",
     capabilities: {
       multilingual: false,
-      quantizable: false,
     },
   },
   {
@@ -38,7 +35,6 @@ export const WHISPER_MODELS: WhisperModel[] = [
     filename: "ggml-base.bin",
     capabilities: {
       multilingual: true,
-      quantizable: false,
     },
   },
   {
@@ -48,7 +44,6 @@ export const WHISPER_MODELS: WhisperModel[] = [
     filename: "ggml-small.bin",
     capabilities: {
       multilingual: true,
-      quantizable: false,
     },
   },
 ];
